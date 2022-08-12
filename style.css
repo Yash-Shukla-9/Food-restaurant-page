@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  /* height: 100%; */
+  margin: 0;
+  background: url(./images/pexels-maxyne-barcel-10402282.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-blend-mode: multiply;
+  background-color: darkslateblue;
+}
+.logo {
+  filter: brightness(0) invert(1);
+}
+
+.navbar-container {
+  display: flex;
+  padding: 2.4rem;
+  justify-content: space-between;
+}
+
+.list {
+  display: inline-flex;
+  list-style: none;
+}
+.list-item {
+  padding: 20px 35px;
+  color: goldenrod;
+}
+
+.nav-button {
+  color: white;
+  background-color: rgb(238, 48, 48);
+  margin-right: 30px;
+  margin-top: 14px;
+  align-items: center;
+  padding: 8px 32px;
+  border: 2px solid rgb(238, 48, 48);
+}
+.text {
+  position: relative;
+  top: 5rem;
+}
+.tag-line {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: rgb(179, 134, 22);
+  font-weight: 900;
+  font-size: 5rem;
+}
+
+.item-center {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: rgb(179, 134, 22);
+  font-weight: 900;
+  font-size: 5rem;
+}
+.menu {
+  position: relative;
+  top: 8rem;
+  left: 41rem;
+  color: white;
+  background-color: rgb(238, 48, 48);
+  margin-right: 30px;
+  margin-top: 14px;
+  align-items: center;
+  padding: 10px 14px;
+  border: 2px solid rgb(238, 48, 48);
+}
